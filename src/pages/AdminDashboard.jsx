@@ -1,12 +1,11 @@
 import React from "react";
 import "./csspages/AdminDashboard.css"
+import SideNavigation from "../components/SideNavigation/SideNavigation";
 
 const AdminDashboard = () => {
 
     return (
-        <div>
-            Ini halaman Admin Dashboard
-        </div>
+        <SideNavigation/>
     )
 }
 
