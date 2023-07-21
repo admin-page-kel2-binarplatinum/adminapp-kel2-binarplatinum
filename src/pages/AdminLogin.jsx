@@ -47,7 +47,7 @@ const AdminLogin = () => {
         }
         if (role === "admin" || role === "Admin") {
           setTimeout(() => {
-            navigate("/admin_dashboard");
+            navigate("/admin-dashboard");
           }, 3000);
         }
         
@@ -72,7 +72,7 @@ const AdminLogin = () => {
       <Container fluid className="admin-login-container">
         <Row className="d-flex admin-login-parent">
           <Col lg={8} className="img-background">
-            <img align="right" src="/src/assets/img/image 2.jpg" alt="" />
+            <img align="right" src="/src/assets/image 2.jpg" alt="" />
           </Col>
           <Col lg={4} className="sign-in-wrapper">
             <div className="sign-in-wrapper-child">

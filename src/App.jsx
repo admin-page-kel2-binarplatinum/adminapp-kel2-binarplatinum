@@ -7,6 +7,7 @@ import {
   useRoutes
 } from "react-router-dom";
 import './App.css'
+import 'bootstrap/dist/css/bootstrap.min.css';
 import AdminLogin from "./pages/AdminLogin";
 import AdminDashboard from "./pages/AdminDashboard";
 import AdminAddCars from "./pages/AdminAddCars";
